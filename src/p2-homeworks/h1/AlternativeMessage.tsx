@@ -1,9 +1,15 @@
 import React from 'react'
+import s from "./AlternativeMessage.module.css"
 
-function AlternativeMessage() {
+type MessageAlt = {
+    textButton: string
+}
+
+const AlternativeMessage:React.FC <MessageAlt> = (props) => {
     return (
-        <div>
-
+        <div className={s.button}>
+        <input/>
+        <button>{props.textButton}</button>
         </div>
     )
 }

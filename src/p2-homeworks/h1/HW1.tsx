@@ -1,11 +1,16 @@
 import React from 'react'
+import Message from "./Message";
+import AlternativeMessage from "./AlternativeMessage";
 
-const messageData = {
+
+
+const messageData= {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Some Name',
-    message: 'some text',
-    time: '22:00',
+    name: 'Aleksandr',
+    message: 'Are they learning Javascript?',
+    time: '04:20',
 }
+
 
 function HW1() {
     return (
@@ -13,18 +18,17 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            {/*should work (должно работать)*/}
 
-            {/*<Message*/}
-            {/*    avatar={messageData.avatar}*/}
-            {/*    name={messageData.name}*/}
-            {/*    message={messageData.message}*/}
-            {/*    time={messageData.time}*/}
-            {/*/>*/}
+
+            <Message
+                avatar={messageData.avatar}
+                name={messageData.name}
+                message={messageData.message}
+                time={messageData.time}
+            />
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
+            <AlternativeMessage textButton={"Ignat"}/>
             <hr/>
         </div>
     )
