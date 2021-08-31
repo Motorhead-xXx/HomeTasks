@@ -2,6 +2,60 @@
 
 }
 
-.error {
-    border: 1px solid red;
+
+input.error, .input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+}
+
+input:focus:required:valid {
+    border: 5px solid green;
+    color: #117003;
+    outline: 0;
+    outline-offset: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+}
+
+.error:focus:invalid{
+    border: 5px solid red;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.errorDiv{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 250px 50px 60px;
+    grid-template-rows: 40px 40px;
+    padding: 10px;
+    border: solid 2px green;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+}
+
+.total{
+    text-align: center;
+    margin-left: 10px;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    color: #fff700;
+    background: #117003;
+    padding: 3px;
+}
+
+.button{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: darkkhaki;
 }
