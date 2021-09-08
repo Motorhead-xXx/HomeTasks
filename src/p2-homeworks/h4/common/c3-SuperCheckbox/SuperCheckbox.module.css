@@ -1,7 +1,37 @@
+label{
+    display: flex;
+    cursor: pointer;
+    align-content: center;
+}
+
 .checkbox {
+    appearance: none;
+    width: 20px;
+    height:20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid green;
+
+}
+
+.checkbox:checked{
+    appearance: none;
+    background-image: url(https://img2.freepng.ru/20180314/uiq/kisspng-check-mark-clip-art-green-tick-5aa8dfb2a1d7f0.2095916315210167546629.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.checkbox:focus{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2pt yellow;
+    outline: none;
+    transition: .1s;
 
 }
 
 .spanClassName {
-
+    color: greenyellow;
 }
+
