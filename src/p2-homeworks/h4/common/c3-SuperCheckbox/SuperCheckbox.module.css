@@ -8,15 +8,15 @@ label{
     appearance: none;
     width: 20px;
     height:20px;
-    background-color: #ffffff;
+    background-color: #fff9cc;
     border-radius: 5px;
-    border: 2px solid green;
+    border: 2px solid #01b901;
 
 }
 
 .checkbox:checked{
     appearance: none;
-    background-image: url(https://img2.freepng.ru/20180314/uiq/kisspng-check-mark-clip-art-green-tick-5aa8dfb2a1d7f0.2095916315210167546629.jpg);
+    background-image: url(5.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,13 +25,13 @@ label{
 .checkbox:focus{
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 0 2pt yellow;
+    box-shadow: 0 0 0 1pt #fa7600;
     outline: none;
     transition: .1s;
 
 }
 
 .spanClassName {
-    color: greenyellow;
+    color: #117003;
 }
 
