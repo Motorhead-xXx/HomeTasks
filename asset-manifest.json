@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HomeTasks/static/css/main.5ece82e8.chunk.css",
+    "main.js": "/HomeTasks/static/js/main.5949acea.chunk.js",
+    "main.js.map": "/HomeTasks/static/js/main.5949acea.chunk.js.map",
+    "runtime-main.js": "/HomeTasks/static/js/runtime-main.6241284f.js",
+    "runtime-main.js.map": "/HomeTasks/static/js/runtime-main.6241284f.js.map",
+    "static/js/2.cf78121a.chunk.js": "/HomeTasks/static/js/2.cf78121a.chunk.js",
+    "static/js/2.cf78121a.chunk.js.map": "/HomeTasks/static/js/2.cf78121a.chunk.js.map",
+    "index.html": "/HomeTasks/index.html",
+    "precache-manifest.3454a35867bf7e22a51ad9960c0e5e00.js": "/HomeTasks/precache-manifest.3454a35867bf7e22a51ad9960c0e5e00.js",
+    "service-worker.js": "/HomeTasks/service-worker.js",
+    "static/css/main.5ece82e8.chunk.css.map": "/HomeTasks/static/css/main.5ece82e8.chunk.css.map",
+    "static/js/2.cf78121a.chunk.js.LICENSE.txt": "/HomeTasks/static/js/2.cf78121a.chunk.js.LICENSE.txt",
+    "static/media/SuperCheckbox.module.css": "/HomeTasks/static/media/5.95ff61a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6241284f.js",
+    "static/js/2.cf78121a.chunk.js",
+    "static/css/main.5ece82e8.chunk.css",
+    "static/js/main.5949acea.chunk.js"
+  ]
+}
