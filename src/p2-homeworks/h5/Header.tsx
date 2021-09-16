@@ -7,9 +7,9 @@ function Header() {
         <div className={s.link}>
             <NavLink to={'/'} className={s.preJunior}>pre-Junior</NavLink>
 
-            <NavLink to={'/junior'} >Junior</NavLink>
+            <NavLink to={'/junior'} className={s.Junior} >Junior</NavLink>
 
-            <NavLink to={'/plus-junior'}>Junior+</NavLink>
+            <NavLink to={'/plus-junior'} className={s.plusJunior}>Junior+</NavLink>
 
             <div className={s.bord}></div>
 
