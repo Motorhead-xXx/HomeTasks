@@ -16,7 +16,7 @@ export type FilterType = 'all' | AffairPriorityType
 const defaultAffairs: AffairType[] = [ // need to fix any
     {_id: 1, name: 'React', priority: 'high'},
     {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
+    {_id: 3, name: 'games', priority: 'middle'},
     {_id: 6, name: 'football', priority: 'low'},
     {_id: 4, name: 'work', priority: 'high'},
     {_id: 5, name: 'html & css', priority: 'middle'},
@@ -56,7 +56,6 @@ function HW2() {
 
     return (
         <div>
-            <hr/>
             homeworks 2
 
             {/*should work (должно работать)*/}
@@ -64,12 +63,9 @@ function HW2() {
                 data={filteredAffairs}
                 setFilter = {setFilter}
                 deleteAffairCallback={deleteAffairCallback}
+                filter={filter}
             />
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
-            <hr/>
         </div>
     )
 }
