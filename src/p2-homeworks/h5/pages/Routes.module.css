@@ -1,0 +1,46 @@
+.link {
+    display: flex;
+    gap: 10px;
+    color: green;
+    transform: translate(-280px);
+    align-items: center;
+    width: 320px;
+    height: 100px;
+    font-weight: bold;
+}
+
+.link:hover {
+    transition-duration: 1.2s;
+    transform: translate(10px);
+}
+
+.bord {
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-image: url("../tractor_PNG101295.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.preJunior{
+    width: 60%;
+    text-align: center;
+}
+
+a:active,
+a:focus,
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    background: #fff700;
+    color: red;
+}
