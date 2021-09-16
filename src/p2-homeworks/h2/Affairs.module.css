@@ -4,31 +4,62 @@
 
 .task{
     display: grid;
-    gap: 40px;
+    gap: 120px;
     grid-template-columns: 100px 100px 100px;
-    justify-items: start;
+    justify-items: center;
     justify-content: center;
     padding: 20px;
-    color: brown;
+    color: #ffffff;
+}
+.but{
+    width: 40px;
+    height: 40px;
+    color: red;
+    background: #f8f7f2;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: large;
 }
 
-.but{
+.button{
     width: 100px;
-    color: red;
-    background: bisque;
+    color: #000000;
+    background: #fff700;
+    font-size: large;
+}
+
+.button.active{
+    width: 100px;
+    color: #fff700;
+    background: #0c9600;
 }
 
 .b {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     padding: 10px;
     border: solid 1px;
-    margin: 2% 30% 0 30%;
+    border-radius: 10px;
+    margin: 1% 30% 0 30%;
+    background: rgba(0, 0, 0, 0.7);
 
 }
 
 .taskDiv{
-    background: #9fe3c5;
+    background: rgba(0, 0, 0, 0.7);
     margin: 0.2% 30% 0 30%;
+    border-radius: 10px;
+}
+
+.low{
+    color: #018f01;
+}
+
+.high{
+    color: red;
+}
+
+.middle{
+    color: #ff9439;
 }
