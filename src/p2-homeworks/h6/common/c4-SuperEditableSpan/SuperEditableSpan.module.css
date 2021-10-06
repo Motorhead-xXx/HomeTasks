@@ -1,0 +1,15 @@
+.homeButton{
+    display: flex;
+    margin: 20px 0 0 0;
+    gap: 5px;
+}
+
+.spanClass{
+    display: flex;
+    height: 32px;
+    color: #800000;
+}
+
+.spanWrapper{
+    margin: 10px 0 10px 0;
+}

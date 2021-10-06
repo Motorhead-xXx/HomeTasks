@@ -1,0 +1,28 @@
+.wrapperUser {
+    display: grid;
+    grid-template-areas:
+        "a b";
+    gap: 10px;
+    grid-template-columns: 80px 140px;
+    margin-left: 20px;
+}
+
+.name {
+    display: grid;
+    grid-area: a;
+    align-items: start;
+
+
+}
+
+.age {
+    display: grid;
+    grid-area: b;
+    justify-items: end;
+}
+
+.buttonWrapper{
+    display: inline-flex;
+    gap: 5px;
+    margin-left: 10px;
+}
