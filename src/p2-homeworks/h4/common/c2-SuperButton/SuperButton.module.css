@@ -1,13 +1,13 @@
 .default {
     border-radius: 5px;
-    width: 70px;
+    width: 80px;
     height: 30px;
     font-weight: bolder;
 }
 
 .default:hover {
     border-radius: 5px;
-    width: 70px;
+    width: 80px;
     height: 30px;
     background: #fff254;
     border-color: coral;
@@ -17,7 +17,7 @@
     background: red;
     font-weight: bolder;
     border-radius: 5px;
-    width: 70px;
+    width: 80px;
     height: 30px;
     border-color: coral;
 }
