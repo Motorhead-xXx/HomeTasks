@@ -1,0 +1,27 @@
+.wrapperClock{
+    margin-left: 10px;
+}
+
+.time{
+    width: 67px;
+    height: 20px;
+    color: white;
+    background: #0095ff;
+    border-radius: 5px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+
+.date{
+    color: white;
+    background: #117003;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.buttonStart{
+    margin-top: 30px;
+}
+.buttonStop{
+    margin-top: 5px;
+}
