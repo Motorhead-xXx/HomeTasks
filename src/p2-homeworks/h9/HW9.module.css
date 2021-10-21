@@ -3,13 +3,16 @@
 }
 
 .time{
-    width: 67px;
-    height: 20px;
+    width: 86px;
+    height: 30px;
     color: white;
     background: #0095ff;
     border-radius: 5px;
     padding-left: 8px;
     margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+
 }
 
 .date{
@@ -17,10 +20,12 @@
     background: #117003;
     border-radius: 5px;
     position: absolute;
+    font-size: 20px;
+    height: 30px;
 }
 
 .buttonStart{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .buttonStop{
     margin-top: 5px;

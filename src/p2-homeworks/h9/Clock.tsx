@@ -25,13 +25,15 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = (date.getHours() < 10 ? "0" + date.getHours() : date.getHours())
-        + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes())
-        + ":" + (date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds())
+    const stringTime = date.toLocaleTimeString()
+        // (date.getHours() < 10 ? "0" + date.getHours() : date.getHours())
+        // + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes())
+        // + ":" + (date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds())
 
-    const stringDate = (date.getDate() < 10 ? "0" + date.getDate() : date.getDate())
-        + "." + (date.getMonth() < 10 ? "0" + date.getMonth() : date.getDay())
-        + "." + date.getFullYear()// fix with date
+    const stringDate = date.toLocaleDateString()
+        // (date.getDate() < 10 ? "0" + date.getDate() : date.getDate())
+        // + "." + ((date.getMonth() ) < 10 ? "0" + date.getMonth() : date.getMonth())
+        // + "." + date.getFullYear()
 
     return (
         <div className={s.wrapperClock}>
