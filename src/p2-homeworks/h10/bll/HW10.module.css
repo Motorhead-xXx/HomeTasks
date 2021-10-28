@@ -1,89 +1,88 @@
-
 .cssloadContainer{
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     position: relative;
     margin-left: 20px;
 }
 
-.cssloadWhirlpool,
-.cssloadWhirlpool::before,
-.cssloadWhirlpool::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: 1px solid rgb(204,204,204);
-    border-left-color: rgb(0,0,0);
-    border-radius: 599px;
-    -o-border-radius: 599px;
-    -ms-border-radius: 599px;
-    -webkit-border-radius: 599px;
-    -moz-border-radius: 599px;
-}
+/*.cssloadWhirlpool,*/
+/*.cssloadWhirlpool::before,*/
+/*.cssloadWhirlpool::after {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    border: 1px solid rgb(204,204,204);*/
+/*    border-left-color: rgb(0,0,0);*/
+/*    border-radius: 599px;*/
+/*    -o-border-radius: 599px;*/
+/*    -ms-border-radius: 599px;*/
+/*    -webkit-border-radius: 599px;*/
+/*    -moz-border-radius: 599px;*/
+/*}*/
 
-.cssloadWhirlpool {
-    margin: -15px 0 0 -15px;
-    height: 30px;
-    width: 30px;
-    animation: cssload-rotate 600ms linear infinite;
-    -o-animation: cssload-rotate 600ms linear infinite;
-    -ms-animation: cssload-rotate 600ms linear infinite;
-    -webkit-animation: cssload-rotate 600ms linear infinite;
-    -moz-animation: cssload-rotate 600ms linear infinite;
-}
+/*.cssloadWhirlpool {*/
+/*    margin: -15px 0 0 -15px;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*    animation: cssload-rotate 600ms linear infinite;*/
+/*    -o-animation: cssload-rotate 600ms linear infinite;*/
+/*    -ms-animation: cssload-rotate 600ms linear infinite;*/
+/*    -webkit-animation: cssload-rotate 600ms linear infinite;*/
+/*    -moz-animation: cssload-rotate 600ms linear infinite;*/
+/*}*/
 
-.cssloadWhirlpool::before {
-    content: "";
-    margin: -14px 0 0 -14px;
-    height: 26px;
-    width: 26px;
-    animation: cssload-rotate 600ms linear infinite;
-    -o-animation: cssload-rotate 600ms linear infinite;
-    -ms-animation: cssload-rotate 600ms linear infinite;
-    -webkit-animation: cssload-rotate 600ms linear infinite;
-    -moz-animation: cssload-rotate 600ms linear infinite;
-}
+/*.cssloadWhirlpool::before {*/
+/*    content: "";*/
+/*    margin: -14px 0 0 -14px;*/
+/*    height: 26px;*/
+/*    width: 26px;*/
+/*    animation: cssload-rotate 600ms linear infinite;*/
+/*    -o-animation: cssload-rotate 600ms linear infinite;*/
+/*    -ms-animation: cssload-rotate 600ms linear infinite;*/
+/*    -webkit-animation: cssload-rotate 600ms linear infinite;*/
+/*    -moz-animation: cssload-rotate 600ms linear infinite;*/
+/*}*/
 
-.cssloadWhirlpool::after {
-    content: "";
-    margin: -17px 0 0 -17px;
-    height: 34px;
-    width: 34px;
-    animation: cssload-rotate 1200ms linear infinite;
-    -o-animation: cssload-rotate 1200ms linear infinite;
-    -ms-animation: cssload-rotate 1200ms linear infinite;
-    -webkit-animation: cssload-rotate 1200ms linear infinite;
-    -moz-animation: cssload-rotate 1200ms linear infinite;
-}
+/*.cssloadWhirlpool::after {*/
+/*    content: "";*/
+/*    margin: -17px 0 0 -17px;*/
+/*    height: 34px;*/
+/*    width: 34px;*/
+/*    animation: cssload-rotate 1200ms linear infinite;*/
+/*    -o-animation: cssload-rotate 1200ms linear infinite;*/
+/*    -ms-animation: cssload-rotate 1200ms linear infinite;*/
+/*    -webkit-animation: cssload-rotate 1200ms linear infinite;*/
+/*    -moz-animation: cssload-rotate 1200ms linear infinite;*/
+/*}*/
 
 
 
-@keyframes cssload-rotate {
-    100% {
-        transform: rotate(360deg);
-    }
-}
+/*@keyframes cssload-rotate {*/
+/*    100% {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
 
-@-o-keyframes cssload-rotate {
-    100% {
-        -o-transform: rotate(360deg);
-    }
-}
+/*@-o-keyframes cssload-rotate {*/
+/*    100% {*/
+/*        -o-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
 
-@-ms-keyframes cssload-rotate {
-    100% {
-        -ms-transform: rotate(360deg);
-    }
-}
+/*@-ms-keyframes cssload-rotate {*/
+/*    100% {*/
+/*        -ms-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
 
-@-webkit-keyframes cssload-rotate {
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
+/*@-webkit-keyframes cssload-rotate {*/
+/*    100% {*/
+/*        -webkit-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
 
-@-moz-keyframes cssload-rotate {
-    100% {
-        -moz-transform: rotate(360deg);
-    }
-}
+/*@-moz-keyframes cssload-rotate {*/
+/*    100% {*/
+/*        -moz-transform: rotate(360deg);*/
+/*    }*/
+/*}*/
